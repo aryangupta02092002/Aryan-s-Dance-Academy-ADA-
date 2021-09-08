@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome to Aryan's Dance Academy
+        div.small Reveal the art of Dance.
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Ball Dance
+            div.card-box
+                div.card-img
+                    img(src="/static/card1.jpg")
+                div.card-content
+                    p Dance with your partner soulfully. 
+
+        div.card
+            h3 Free Style
+            div.card-box
+                div.card-img
+                    img(src="/static/card2.jpg")
+                div.card-content
+                    p Make your steps magical.
+
+        div.card
+            h3 Classical
+            div.card-box
+                div.card-img
+                    img(src="/static/card3.jpg")
+                div.card-content
+                    p Your eyes will dance with you.
+
+    section#sponsorsSection 
+        h2 Our Sponsors.
+        div#sponsors
+            img(src="/static/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/logo4.png", alt="Sponsor Image", class="spImage")        

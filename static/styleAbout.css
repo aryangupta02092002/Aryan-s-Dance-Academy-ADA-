@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* font-size: 30px; */
+    font-family: 'Architects Daughter', cursive;
+}
+/* .container{
+    justify-content: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */

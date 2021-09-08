@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: teal;
+    font-family: 'Architects Daughter', cursive;
+    padding: 13px 14px;
+    background-blend-mode: hue;
+    font-weight: bolder;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    font-size: 1.1rem;
+    color: azure;
+    font-weight: bolder;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 65px;
+    align-items: center;
+    background-color: black;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 620px;
+    background-color: red;
+    margin-top: 1px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    height: 326px;
+    width: 100%;
+    margin: auto;
+    color: azure;
+    background-color: rgb(150, 43, 48);
+}
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 22px;
+}
+.card{
+    display: inline-block;
+    border: 6px solid black;
+    border-radius: 15px;
+    width: 25%;
+    margin: 23px 20px;
+    text-align: center;
+    margin-top: -27px;
+    margin-bottom: 12px;
+    /* margin: 23px 20px; */
+    color: white;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 10px;
+    font-family: 'Architects Daughter',cursive;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    /* font-size: 20px; */
+    /* font-weight: bolder; */
+    /* text-align: center; */
+    height: 300px;
+    margin-top: -30px;
+    background-color: rgb(52, 82, 83);
+}
+#sponsorsSection h2{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsors{
+    height: 200px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    background-color: rgb(245, 143, 143);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    height: 25px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
